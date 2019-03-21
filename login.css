@@ -1,0 +1,22 @@
+.fst{
+  background: url("./Images/thr.jpg");
+  width: 1500px;
+  height: 2000px;
+
+}
+h3{
+text-align: center;
+color: aliceblue;
+font-size: 25px;
+}
+
+.bkk{
+ position: absolute;
+width:25%;
+left:600px;
+top:200px;
+}
+input[type=submit]:hover {
+  background-color:black;
+  text-align: center;
+}

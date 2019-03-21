@@ -1,0 +1,29 @@
+.fogg{
+    background: url("./thr.jpg");
+    width: 1500px;
+    height: 2000px;
+  
+  }
+  h3{
+  text-align: center;
+  color:cornsilk;
+  font-size: 25px;
+  }
+  
+  .bbb{
+   position: absolute;
+  width:40%;
+  left:450px;
+  top:200px;
+  }
+  .bbb table{
+      color: black;
+  }
+  .bbb tr input[type=submit]{
+    box-align: center;
+  }
+  .bbb tr input[type=submit]:hover {
+   background-color:black; 
+    float: left;
+    
+  }
