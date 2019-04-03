@@ -17,8 +17,8 @@ class Newasset extends Component{
           model:"",
           date:"",
           iemi:"",
-          des:""
-          
+          des:"",
+          status:0
             },
         addassets:[]
       }
@@ -119,8 +119,6 @@ onChangeHandler4= (event) =>{
 
 
 render=() =>{
-
-
 
                return(
 

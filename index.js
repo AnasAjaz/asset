@@ -16,8 +16,11 @@ import Request from './Request/Request';
 import Viewassigned from './viewassigned/viewassigned';
 import Viewunassign from './viewunassign/viewunassign';
 import Indiuser from './indiuser/indiuser';
+import User from './user/user';
+import Gallery from './gallery/gallery';
 import * as serviceWorker from './serviceWorker';
 import about from './about/about';
+import Display from './display/display';
 const index = (
    <BrowserRouter>
   <div>
@@ -36,6 +39,9 @@ const index = (
       <Route path="/viewassigned" component={Viewassigned}/>
       <Route path="/viewunassign" component={Viewunassign}/>
       <Route path="/indiuser" component={Indiuser}/>
+      <Route path="/user" component={User}/>
+      <Route path="/gallery"component={Gallery}/>
+      <Route path="/display"component={Display}/>
      
 
   </div>
